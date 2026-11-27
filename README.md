@@ -15,9 +15,9 @@ Memprediksi peluang keselamatan penumpang kapal Titanic berdasarkan 4 atribut ut
 
 ## Hasil Evaluasi
 Evaluasi dilakukan menggunakan 30% data uji (268 baris) dengan metrik berikut (sesuaikan angka di bawah dengan isi file `model/evaluasi.json` setelah menjalankan ulang `train_model.py` dengan `test_size=0.3`):
-- **Accuracy:** `80.45%` *(ganti sesuai nilai di `evaluasi.json`)*
-- **Precision:** `77.46%` *(ganti sesuai nilai di `evaluasi.json`)*
-- **Recall:** `74.32%` *(ganti sesuai nilai di `evaluasi.json`)*
+- **Accuracy:** `79.85%` *(ganti sesuai nilai di `evaluasi.json`)*
+- **Precision:** `80.0%` *(ganti sesuai nilai di `evaluasi.json`)*
+- **Recall:** `68.47%` *(ganti sesuai nilai di `evaluasi.json`)*
 
 ## Struktur Folder
 - `dataset/titanic.csv`: Dataset historis penumpang Titanic
