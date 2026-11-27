@@ -1,8 +1,8 @@
 {
   "total_data": 891,
-  "data_latih": 712,
-  "data_uji": 179,
-  "akurasi": 80.45,
-  "presisi": 77.46,
-  "recall": 74.32
+  "data_latih": 623,
+  "data_uji": 268,
+  "akurasi": 79.85,
+  "presisi": 80.0,
+  "recall": 68.47
 }

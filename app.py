@@ -55,7 +55,7 @@ with st.container(border=True):
 
     tabel_evaluasi = pd.DataFrame([{
         "Total Data": f"{evaluasi['total_data']} baris",
-        "Split Latih / Uji": f"{evaluasi['data_latih']} / {evaluasi['data_uji']} (80:20)",
+        "Split Latih / Uji": f"{evaluasi['data_latih']} / {evaluasi['data_uji']} (70:30)",
         "Akurasi Uji": f"{evaluasi['akurasi']}%",
         "Presisi": f"{evaluasi['presisi']}%",
         "Recall": f"{evaluasi['recall']}%",

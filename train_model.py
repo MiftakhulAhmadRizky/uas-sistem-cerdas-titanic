@@ -5,6 +5,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, precision_score, recall_score
 
+# Sumber Dataset: [https://www.kaggle.com/c/titanic]
+# Sumber Dataset: Titanic - Machine Learning from Disaster (https://www.kaggle.com/c/titanic)
+
 # 1. Membaca dataset Titanic dari folder dataset
 df = pd.read_csv("dataset/titanic.csv")
 
@@ -18,9 +21,9 @@ fitur = ["Pclass", "Sex", "Age", "Fare"]
 X = df[fitur]
 y = df["Survived"]
 
-# 4. Split 80% data latih dan 20% data uji
+# 4. Split 70% data latih dan 30% data uji
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=42
+    X, y, test_size=0.3, random_state=42
 )
 
 # 5. Latih model Random Forest
