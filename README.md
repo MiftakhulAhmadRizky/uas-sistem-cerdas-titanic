@@ -1,4 +1,4 @@
-# Sistem Prediksi Keselamatan Penumpang Titanic Berbasis Web (Django)
+# Sistem Prediksi Keselamatan Penumpang Titanic Berbasis Web (Stremlit)
 
 ## Masalah yang diselesaikan
 Memprediksi peluang keselamatan penumpang kapal Titanic berdasarkan 4 atribut utama penumpang (kelas tiket, jenis kelamin, usia, dan tarif tiket) melalui antarmuka web interaktif.
