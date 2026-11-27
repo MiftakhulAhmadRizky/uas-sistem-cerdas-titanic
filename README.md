@@ -40,7 +40,10 @@ Evaluasi dilakukan menggunakan 30% data uji (268 baris) dengan metrik berikut (s
    ```bash
    .\venv\Scripts\streamlit.exe run app.py
    ```
-4. Akses aplikasi secara online (publik): [`https://uas-sistem-cerdas-titanic-miftakhulahmadrizky.streamlit.app/`]
+4. Akses aplikasi secara online (publik): 
+```
+https://uas-sistem-cerdas-titanic-miftakhulahmadrizky.streamlit.app/
+```
 
 ## Refleksi Singkat
 Melalui pembuatan proyek ini, saya mempelajari alur penerapan *machine learning* secara menyeluruh mulai dari pembersihan data (*handling missing values* pada kolom usia dan tarif Titanic), pembagian data latih dan uji, penyimpanan model ke format `.pkl`, hingga membangun antarmuka web interaktif berbasis Streamlit yang terhubung ke GitHub dan Streamlit Community Cloud. Tantangan utama berada pada penyesuaian format tipe data input pengguna agar selaras dengan fitur saat pelatihan model.
